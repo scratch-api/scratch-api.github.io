@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Scratch (API) Documentation
+site_url: https://scratch-api.github.io/docs/
+site_description: Documentation for the Scratch API and other things
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode

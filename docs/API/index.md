@@ -1,4 +1,15 @@
-# Scratch Web API
+# API
+
+API stands for application-programmer-interface. Essentially what this means is a way to integrate your code
+with scratch.
+
+Scratch itself provides a number of urls which can be used for interaction via web requests, shown [below](#web-api).
+
+!!! info 
+
+    It is recommended to use an [existing library](existing-libraries) to interact with scratch instead of making your own
+
+## Web API
 
 In order to make requests to scratch, there are a multitude of different urls where you can make
 `GET`, `POST`, `PUT`, `DELETE` and other types of request.
@@ -8,6 +19,8 @@ These urls can be generally categorized by their subdomain and/or path.
 !!! warning
 
     This is not a complete list.
+
+### Scratch
 
 | URL                                        | Purpose                                                                                                                         |
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
@@ -23,14 +36,14 @@ These urls can be generally categorized by their subdomain and/or path.
 | https://cdn.scratch.mit.edu                | Content delivery network - hosts images, css, js, emojis, etc.                                                                  |
 | https://synthesis-service.scratch.mit.edu  | Text2Speech requests - which the Text2Speech extension uses                                                                     |
 
-## Ocular
+### Ocular
 
 | URL                                | Purpose                                       |
 |------------------------------------|-----------------------------------------------|
 | https://jeffalo.net/api/           | Jeffalo's API                                 |
 | https://my-ocular.jeffalo.net/api/ | API for [ocular](https://ocular.jeffalo.net/) |
 
-## TurboWarp
+### TurboWarp
 
 | URL | Purpose |
 |-----|---------|

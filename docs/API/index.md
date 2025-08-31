@@ -5,6 +5,10 @@ In order to make requests to scratch, there are a multitude of different urls wh
 
 These urls can be generally categorized by their subdomain and/or path.
 
+!!! warning
+
+    This is not a complete list.
+
 | URL                                        | purpose                                                                                                                         |
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | https://scratch.mit.edu/                   | The main website                                                                                                                |
@@ -32,4 +36,3 @@ These urls can be generally categorized by their subdomain and/or path.
 |-----|---------|
 |     |         |
 
-This is not a complete list.

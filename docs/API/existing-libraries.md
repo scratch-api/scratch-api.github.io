@@ -1,4 +1,4 @@
-There exist a number of pre-existing libraries for interacting with the scratch API
+There are a number of pre-existing libraries for interacting with the scratch API
 
 !!! warning
 

@@ -27,7 +27,14 @@ jobs:
           path: ~/.cache
           restore-keys: |
             mkdocs-material-
+
       - run: pip install mkdocs-material
-      - run: pip install "mkdocs-material[imaging]"
-      - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+
+      - name: install plugins
+        run: |
+          pip install "mkdocs-material[imaging]"
+          sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+
+          pip install mkdocs-glightbox
+
       - run: mkdocs gh-deploy --force

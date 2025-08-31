@@ -22,3 +22,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+plugins:
+  - social
+  - search
+
+
+extra:
+  social:
+    # Took this from the goboscript mkdocs yml file
+    - icon: fontawesome/brands/github
+      link: https://github.com/scratch-api
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/mgxyyfnfk8

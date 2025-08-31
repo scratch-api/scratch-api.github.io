@@ -9,7 +9,7 @@ These urls can be generally categorized by their subdomain and/or path.
 
     This is not a complete list.
 
-| URL                                        | purpose                                                                                                                         |
+| URL                                        | Purpose                                                                                                                         |
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | https://scratch.mit.edu/                   | The main website                                                                                                                |
 | https://api.scratch.mit.edu/               | The main API for public use, documented [on the scratch wiki](https://en.scratch-wiki.info/wiki/API)                            |
@@ -25,14 +25,14 @@ These urls can be generally categorized by their subdomain and/or path.
 
 ## Ocular
 
-| URL                                | purpose                                       |
+| URL                                | Purpose                                       |
 |------------------------------------|-----------------------------------------------|
 | https://jeffalo.net/api/           | Jeffalo's API                                 |
 | https://my-ocular.jeffalo.net/api/ | API for [ocular](https://ocular.jeffalo.net/) |
 
 ## TurboWarp
 
-| URL | purpose |
+| URL | Purpose |
 |-----|---------|
 |     |         |
 

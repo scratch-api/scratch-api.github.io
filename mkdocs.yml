@@ -4,6 +4,9 @@ site_name: Scratch (API) Documentation
 site_url: https://scratch-api.github.io/docs/
 site_description: Documentation for the Scratch API and other things
 
+repo_url: https://github.com/TimMcCool/scratchattach
+repo_name: TimMcCool/scratchattach
+
 theme:
   name: material
   palette:
@@ -81,6 +84,6 @@ extra:
   social:
     # Took this from the goboscript mkdocs yml file
     - icon: fontawesome/brands/github
-      link: https://github.com/scratch-api
+      link: https://github.com/scratch-api/docs
     - icon: fontawesome/brands/discord
       link: https://discord.gg/mgxyyfnfk8

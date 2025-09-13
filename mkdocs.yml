@@ -36,7 +36,8 @@ theme:
     - navigation.tabs
     - content.tabs.link
     - content.tooltips
-
+    - navigation.footer
+    - content.code.annotate
 
 plugins:
   - social

@@ -14,10 +14,13 @@ The session object:
 
 ### `scratch login`
 
+
+You will be automatically exited from the group. To stay in, use -G.
 Login to a scratch account and add it to the current group. You will be prompted for a username and password
 
 ### `scratch login --sessid`
 
+You will be automatically exited from the group. To stay in, use -G.
 Login to a scratch account and add it to the current group. You will be prompted for a session ID.
 
 ## Account groups
@@ -45,8 +48,23 @@ These are stored in the cookies as values for an object, not a list. The key is 
 
 ### `scratch ungroup`
 
-This exits the current group and into the 'global' group. If you login now, it will make a new group with only 1 member.
+This exits the current group and into the 'global' group. If you login now, it will make a new group with only 1 member,
+which you will automatically enter.
 
 ### `scratch group`
 
-Get the members of the group. 
+Get the members of the group.
+
+### `scratch group rename`
+
+Try to rename the group, if possible.
+
+### `scratch group delete`
+
+Delete the group.
+
+### `scratch group`
+
+List all groups
+
+### `scratch group switch`

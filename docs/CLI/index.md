@@ -29,6 +29,7 @@ On linux, you can do this using `.bashrc`.
 ## Scratchattach objects
 
 format: `-{object-type} {identifying info} ({other info})`
+
 - Users: `-U {username}`
 - Projects `-P {id} (name)`
 - Studios `-S {id} (name)`
@@ -59,6 +60,7 @@ If no search param is provided, just show the user/project/session page instead.
 If no USERNAME is provided, default to the session username.
 
 Options for search param:
+
 - `lovefeed` - Projects loved by scratchers I'm following
 - `loves` | `loved` - Loved projects (requires USERNAME)
 - `faves` | `faved` | `favorited` | `favorites` - Favorited projects (requires USERNAME)

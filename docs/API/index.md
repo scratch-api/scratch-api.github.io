@@ -5,7 +5,7 @@ with scratch.
 
 Scratch itself provides a number of urls which can be used for interaction via web requests, shown [below](#web-api).
 
-!!! info 
+!!! info
 
     It is recommended to use an [existing library](existing-libraries.md) to interact with scratch instead of making your own
 
@@ -45,7 +45,8 @@ These urls can be generally categorized by their subdomain and/or path.
 
 ### TurboWarp
 
-| URL | Purpose |
-|-----|---------|
-|     |         |
-
+| URL                                   | Purpose                                                                                                                             |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| https://trampoline.turbowarp.org/api/ | Serves as a proxy for the scratch api                                                                                               |
+| wss://clouddata.turbowarp.org         | This is where the turbowarp cloud server websocket lives                                                                            |
+| https://share.turbowarp.org/          | Turbowarp placeholder. Has endpoints for uploading, downloading, and deleting projects. Note this is 'Not ready for mainstream use' |

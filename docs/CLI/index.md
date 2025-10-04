@@ -30,3 +30,7 @@ format: `-{object-type} {identifying info} ({other info})`
 - Users: `-U {username}`
 - Projects `-P {id} (name)`
 - Studios `-S {id} (name)`
+
+You can view more information about a user/project/studio using `sc` and then their format, e.g. `sc -P 104`.
+Doing this will also load up the object's identifying information, so that any immediate can relate to that project.
+e.g. Loading `-P 104`, then doing `sc comment`, creating a prompt for a comment on the project with ID 104.

@@ -7,7 +7,7 @@ Scratch itself provides a number of urls which can be used for interaction via w
 
 !!! info 
 
-    It is recommended to use an [existing library](existing-libraries) to interact with scratch instead of making your own
+    It is recommended to use an [existing library](existing-libraries.md) to interact with scratch instead of making your own
 
 ## Web API
 

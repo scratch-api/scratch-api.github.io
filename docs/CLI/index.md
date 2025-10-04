@@ -15,4 +15,18 @@ Scratch CLI is built to be good for account management. It makes it easy to:
 - Perform actions with multiple accounts
 - Manage certain groups of accounts
 
-For more info, go [here](./accs.md)
+For more info about multi account management, go [here](sessions.md)
+
+It's recommended to add an alias `sc` to Scratch CLI as will be used in this documentation. 
+On linux, you can do this using `.bashrc`.
+
+## Implementation details
+
+- The CLI will use `sqlite` (subject to change?)
+
+## Scratchattach objects
+
+format: `-{object-type} {identifying info} ({other info})`
+- Users: `-U {username}`
+- Projects `-P {id} (name)`
+- Studios `-S {id} (name)`

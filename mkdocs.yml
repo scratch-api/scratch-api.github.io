@@ -6,6 +6,7 @@ site_description: Documentation for the Scratch API and other things
 
 repo_url: https://github.com/scratch-api/scratch-api.github.io
 repo_name: scratch-api/scratch-api.github.io
+edit_uri: 'edit/main/docs/'
 
 theme:
   name: material
@@ -28,8 +29,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-
   features:
+    - content.action.edit
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress

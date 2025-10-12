@@ -12,7 +12,7 @@ Then, go to the Scratch website, create a new project and upload the project fil
 
 **How to use with Scratch:**
 
-Copy this code to your Python editor. [How to get your session id](../Get-your-session-id)
+Copy this code to your Python editor. [How to get your session id](Get-your-session-id.md)
 
 ```py
 import scratchattach as sa

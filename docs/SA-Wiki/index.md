@@ -18,29 +18,29 @@ This library can set cloud variables, follow Scratchers, post comments and do so
 
 # Documentation
 
-- **[Documentation](https://github.com/TimMcCool/scratchattach/wiki/Documentation)**
+- **[Documentation](Documentation.md)**
 
-- [Cloud Variables](https://github.com/TimMcCool/scratchattach/wiki/Documentation#cloud-variables)
-- [Cloud Requests](https://github.com/TimMcCool/scratchattach/wiki/Cloud-Requests)
-- [Cloud Storage](https://github.com/TimMcCool/scratchattach/wiki/Cloud-Storage)
-- [Filterbot](https://github.com/TimMcCool/scratchattach/wiki/Filterbot)
-- [Self-hosting a TW cloud websocket](https://github.com/TimMcCool/scratchattach/wiki/Documentation#hosting-a-cloud-server)
+- [Cloud Variables](Documentation.md#cloud-variables)
+- [Cloud Requests](Cloud-Requests.md)
+- [Cloud Storage](Cloud-Storage.md)
+- [Filterbot](Filterbot.md)
+- [Self-hosting a TW cloud websocket](Documentation.md#hosting-a-cloud-server)
 
 # Helpful resources
 
-- [Get your session id](https://github.com/TimMcCool/scratchattach/wiki/Get-your-session-id)
+- [Get your session id](Get-your-session-id.md)
 
-- [Examples](https://github.com/TimMcCool/scratchattach/wiki/Examples)
-- [Hosting](https://github.com/TimMcCool/scratchattach/wiki/Hosting)
+- [Examples](Examples.md)
+- [Hosting](Hosting.md)
 
-- [Migrating to v2](https://github.com/TimMcCool/scratchattach/wiki/Migrating-to-v2)
+- [Migrating to v2](Migrating-to-v2.md)
 
 Report bugs by opening an issue on this repository. If you need help or guideance, leave a comment in the [official forum topic](https://scratch.mit.edu/discuss/topic/603418/
 ). Projects made using scratchattach can be added to [this Scratch studio](https://scratch.mit.edu/studios/31478892/).
 
 # Helpful for contributors
 
-- **[Structure of the library](https://github.com/TimMcCool/scratchattach/wiki/Structure-of-the-library)**
+- **[Structure of the library](Structure-of-the-library.md)**
 
 - [Extended documentation (WIP)](https://scratchattach.readthedocs.io/en/latest/)
 
@@ -61,7 +61,7 @@ cloud = session.connect_cloud("project_id")
 cloud.set_var("variable", value)
 ```
 
-**[More examples](https://github.com/TimMcCool/scratchattach/wiki/Examples)**
+**[More examples](Examples.md)**
 
 # Getting started
 
@@ -89,7 +89,7 @@ session = sa.login("username", "password")
 
 `login()` returns a `Session` object that saves your login and can be used to connect objects like users, projects, clouds etc.
 
-**Logging in with a sessionId:** *You can get your session id from your browser's cookies. [More information](https://github.com/TimMcCool/scratchattach/wiki/Get-your-session-id)*
+**Logging in with a sessionId:** *You can get your session id from your browser's cookies. [More information](Get-your-session-id.md)*
 ```python
 import scratchattach as sa
 
@@ -128,4 +128,4 @@ project.love()
 project.post_comment('Great project!')
 ```
 
-**All scratchattach features are documented in the [documentation](https://github.com/TimMcCool/scratchattach/wiki/Documentation).**
+**All scratchattach features are documented in the [documentation](Documentation.md).**

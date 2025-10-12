@@ -45,7 +45,7 @@ session = sa.login("username", "password") #Returns a sa.Session object
 
 **Logging in with a session id:**
 
-*You can get your session id from your browser's cookies. [More information](https://github.com/TimMcCool/scratchattach/wiki/Get-your-session-id)*
+*You can get your session id from your browser's cookies. [More information](Get-your-session-id.md)*
 
 ```python
 session = sa.login_by_id("session", username="username") #Returns a sa.Session object. The username field is case sensitive and optional (you only need to set it when you're on replit)
@@ -137,7 +137,7 @@ cloud.disconnect()
 logs = cloud.logs() # returns the clouddata logs as list of sa.CloudActivity objects
 ```
 
-[**Fully customized clouds (advanced)**](https://github.com/TimMcCool/scratchattach/wiki/Documentation#fully-customized-clouds)
+[**Fully customized clouds (advanced)**](Documentation.md#fully-customized-clouds)
 
 ## sa.CloudActivity class
 
@@ -251,7 +251,7 @@ Scratchattach provides a Cloud Requests Framework (inspired by discord.py) that 
 
 *This makes it possible to access data like message counts, user stats and more from Scratch projects! Uses cloud variables to transmit data.*
 
-**[Click here to go to Cloud Requests documentation](https://github.com/TimMcCool/scratchattach/wiki/Cloud-Requests)**
+**[Click here to go to Cloud Requests documentation](Cloud-Requests.md)**
 
 If you want to access external information in Scratch projects or store data on an external database, scratchattach's Cloud Requests are ideal for your project:
 - Similar to cloud events, but send back data to the project
@@ -264,7 +264,7 @@ Scratchattach also provides a Cloud Storage Framework that makes it easy to stor
 
 *This makes it possible to connect a database to your Scratch project!*
 
-**[Click here to go to Cloud Storage documentation](https://github.com/TimMcCool/scratchattach/wiki/Cloud-Storage)**
+**[Click here to go to Cloud Storage documentation](Cloud-Storage.md)**
 
 If you need a simple key-value storage for storing highscores or user data, scratchattach's Cloud Storages are ideal for your project.
 
@@ -443,7 +443,7 @@ events.stop()
 
 Scratchattach provides a filterbot framework that can be used to automatically delete spam comments. You can either use pre-made filter profiles (like *f4f filter* or *advertising filter*) or set up your own, custom filter rules. (Based on Message Events)
 
-**[Click here to go to Filterbot documentation](https://github.com/TimMcCool/scratchattach/wiki/Filterbot)**
+**[Click here to go to Filterbot documentation](Filterbot.md)**
 
 # Projects
 

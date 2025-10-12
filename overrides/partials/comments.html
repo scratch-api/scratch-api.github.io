@@ -1,3 +1,17 @@
+<!-- Footer for scratchattach pages. Not ideal -->
+{% if page.file.src_uri.startswith('SA-Wiki') %}
+  <div>
+      <p>
+          <a href="https://scratchattach.readthedocs.io/en/latest/">Extended documentation (WIP)</a>
+          - <a href="https://github.com/TimMcCool/scratchattach/blob/main/CHANGELOG.md">Change log</a>
+          - <a href="https://scratchattach.tim1de.net/">Website</a>
+      </p>
+      <p align="left">
+        <img width="70" src="https://raw.githubusercontent.com/TimMcCool/scratchattach/refs/heads/main/logos/logo.svg">
+      </p>
+  </div>
+{% endif %}
+
 {% if page.meta.comments %}
   <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
   <!-- Insert generated snippet here -->

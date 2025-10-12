@@ -2,5 +2,6 @@ mkdocs-material
 mkdocs-material[imaging]
 mkdocs-glightbox
 mkdocs-rss-plugin
+mkdocs-simple-hooks
 # pacman -S mingw-w64-ucrt-x86_64-cairo
 # pacman -S mingw-w64-ucrt-x86_64-pngquant

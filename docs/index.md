@@ -8,5 +8,5 @@ The docs are licensed under [MIT](https://github.com/scratch-api/docs/blob/main/
 
 !!! Note
 
-  This website contains a fork of the [scratchattach wiki](https://github.com/TimMcCool/scratchattach/wiki), which is licensed under MIT as well, in the SA-Wiki section.
+    This website contains a fork of the [scratchattach wiki](https://github.com/TimMcCool/scratchattach/wiki), which is licensed under MIT as well, in the SA-Wiki section.
   

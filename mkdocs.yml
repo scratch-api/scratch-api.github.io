@@ -100,9 +100,6 @@ extra:
       link: https://discord.gg/mgxyyfnfk8
 
   analytics:
-    provider: google
-    property: G-XXXXXXXXXX  # these are required fields, but unused
-
     feedback:
       title: Was this page helpful?
       ratings:

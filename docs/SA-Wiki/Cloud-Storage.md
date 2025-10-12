@@ -4,7 +4,7 @@ Cloud Storage Framework that makes it easy to store project data by sending it o
 
 **Add a Cloud Storage to your Scratch project:**
 
-Download this project file to your computer (click the link to download it): https://github.com/TimMcCool/scratchattach/raw/main/assets/CloudStorage_Template.sb3
+Download this project file to your computer (click the link to download it): <https://github.com/TimMcCool/scratchattach/raw/main/assets/CloudStorage_Template.sb3>
 
 Then, go to the Scratch website, create a new project and upload the project file from above.
 

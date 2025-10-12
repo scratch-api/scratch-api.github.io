@@ -8,10 +8,10 @@
 3. Go to the "Application" tab (in Firefox & DuckDuckGo the "Storage" tab), then go to "Cookies" > "https://scratch.mit.edu"
 4. Then find a cookie named  `scratchsessionsid`. The value of this cookie is your Scratch session id 
 
-![](https://github.com/TimMcCool/scratchattach/blob/main/wiki/images/cookies_tut_1.png) 
+![](https://raw.githubusercontent.com/TimMcCool/scratchattach/refs/heads/main/wiki/images/cookies_tut_1.png) 
    
 For Firefox/DuckDuckGo:  
-![](https://github.com/TimMcCool/scratchattach/blob/main/wiki/images/cookies_tut_3.png)  
+![](https://raw.githubusercontent.com/TimMcCool/scratchattach/refs/heads/main/wiki/images/cookies_tut_3.png)  
 
 ### For Safari:
 1. [Enable developer features](https://developer.apple.com/documentation/safari-developer-tools/enabling-developer-features)
@@ -31,4 +31,4 @@ For Firefox/DuckDuckGo:
 2. Click the 🔒 icon in the URL bar, then click "Cookies"
 3. Then find a cookie called `scratchsessionsid` (in the "scratch.mit.edu" » "Cookies" folder). The content of this cookie is your Scratch session id
 
-![](https://github.com/TimMcCool/scratchattach/blob/main/wiki/images/cookies_tut_2.png)
+![](https://raw.githubusercontent.com/TimMcCool/scratchattach/refs/heads/main/wiki/images/cookies_tut_2.png)

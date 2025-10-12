@@ -1,7 +1,8 @@
 Scratchattach provides a submodule `editor` for project parsing/editing. It is useful for extracting data from projects, or performing repetitive operations.
 
-> [!NOTE]
-> Scratchattach.editor is work-in-progress. If there is a feature missing or a strange bug, [please add an issue!](https://github.com/TimMcCool/scratchattach/issues)
+!!! Note
+    
+    Scratchattach.editor is work-in-progress. If there is a feature missing or a strange bug, [please add an issue!](https://github.com/TimMcCool/scratchattach/issues)
 
 # Basic usage
 
@@ -68,6 +69,7 @@ m = editor.Monitor(vlb, visible=True, params={
 proj.add_monitor(m)
 ```
 
-> [!WARNING]
-> Loading scripts from the backpack requires a special function: editor.load_script_from_backpack, because the backpack uses a 
-> slightly different block syntax 
+!!! Warning
+
+    Loading scripts from the backpack requires a special function: editor.load_script_from_backpack, because the backpack uses a 
+    slightly different block syntax

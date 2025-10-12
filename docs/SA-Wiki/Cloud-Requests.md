@@ -6,13 +6,13 @@ New in v2.0: Cloud Requests now use threading.Event which massively lowers CPU u
 
 **Add Cloud Requests to your Scratch project:**
 
-Download this project file to your computer (click the link to download it): https://github.com/TimMcCool/scratchattach/raw/main/assets/CloudRequests_Template.sb3
+Download this project file to your computer (click the link to download it): <https://github.com/TimMcCool/scratchattach/raw/main/assets/CloudRequests_Template.sb3>
 
 Then, go to the Scratch website, create a new project and upload the project file from above.
 
 **How to use with Scratch:**
 
-Copy this code to your Python editor. [How to get your session id](https://github.com/TimMcCool/scratchattach/wiki/Get-your-session-id)
+Copy this code to your Python editor. [How to get your session id](../Get-your-session-id)
 
 ```py
 import scratchattach as sa
@@ -38,12 +38,12 @@ Then, run the code.
 
 Now go to the Scratch project. In the `Cloud Requests` sprite, you will find this block:
 
-![image](https://github.com/TimMcCool/scratchattach/blob/main/wiki/images/cr_tut_block.png)
+![image](https://raw.githubusercontent.com/TimMcCool/scratchattach/refs/heads/main/wiki/images/cr_tut_block.png)
 
 When active, it sends a "ping" request to the Python client. This will call the `ping()` function. The data returned by the function will be sent back to the project.
 Try it out by clicking the block!
 
-![image](https://github.com/TimMcCool/scratchattach/blob/main/wiki/images/cr_tut_restult.png)
+![image](https://raw.githubusercontent.com/TimMcCool/scratchattach/refs/heads/main/wiki/images/cr_tut_restult.png)
 
 **How to use with TurboWarp:**
 
@@ -62,7 +62,7 @@ client = cloud.requests()
 
 Scratch code:
 
-![image](https://github.com/TimMcCool/scratchattach/blob/main/wiki/images/cr_tut_example1.png)
+![image](https://raw.githubusercontent.com/TimMcCool/scratchattach/refs/heads/main/wiki/images/cr_tut_example1.png)
 
 ```python
 @client.request

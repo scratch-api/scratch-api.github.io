@@ -2,8 +2,9 @@
 
 Scratchattach consists out of three base classes: `BaseEventHandler`, `BaseSiteComponent` and `BaseCloud`. All classes are grouped in folders based on which base class they are built upon.
 
-> [!NOTE]
-> The scratchattach.editor module uses its own base classes and is structured separately to the rest of scratchattach. This is possibly subject to change.
+!!! Note
+    
+    The scratchattach.editor module uses its own base classes and is structured separately to the rest of scratchattach. This is possibly subject to change.
 
 ## BaseEventHandler:
 

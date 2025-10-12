@@ -59,25 +59,25 @@ Offers cheap VPS (Virtual private servers) for hosting any kind of code. The low
 
 # More
 
-https://dash.huguitisnodes.host/register
+<https://dash.huguitisnodes.host/register>
 Video timestamp: [0:04](https://youtu.be/lPYJu3crgGg?t=4)
 > best for running 1-2 scripts, no renewal required!
 
 
-https://bot-hosting.net/
+<https://bot-hosting.net/>
 Video timestamp: [3:47](https://youtu.be/lPYJu3crgGg?t=227)
 > Second best for running one or two scripts for a long time - requires you to earn credits. You can earn enough credits in one day to run your server for a week.
 
-https://panel.sillydev.co.uk/
+<https://panel.sillydev.co.uk/>
 Video timestamp: [7:06](https://youtu.be/lPYJu3crgGg?t=426)
 > Best if you need lots of scripts running 24/7
 
-https://www.hidencloud.com/
+<https://www.hidencloud.com/>
 Video timestamp: [9:37](https://youtu.be/lPYJu3crgGg?t=577)
 > Lets you run one script and requires renewal once a week.
 
-https://botcore.org/
+<https://botcore.org/>
 Video timestamp: [14:29](https://youtu.be/lPYJu3crgGg?t=869)
 > Similar to sillydev, but required frequent renewals and server resources are expensive
 
-https://skycastle.us/
+<https://skycastle.us/>

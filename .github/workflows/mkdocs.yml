@@ -28,13 +28,9 @@ jobs:
           restore-keys: |
             mkdocs-material-
 
-      - run: pip install mkdocs-material
-
-      - name: install plugins
+      - name: install requirements
         run: |
-          pip install "mkdocs-material[imaging]"
           sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-
-          pip install mkdocs-glightbox
+          pip install -r requirements.txt
 
       - run: mkdocs gh-deploy --force

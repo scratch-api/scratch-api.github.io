@@ -9,6 +9,27 @@ Scratch itself provides a number of urls which can be used for interaction via w
 
     It is recommended to use an [existing library](existing-libraries.md) to interact with scratch instead of making your own
 
+## Organisation
+
+This section is organised in a similar way to [scratchattach](https://github.com/TimMcCool/scratchattach/)
+
+todo list:
+
+- [ ] Cloud protocol
+- [ ] Other apis
+- [ ] Site
+  - [ ] Activity
+  - [ ] (Educator) Alert
+  - [ ] Backpack Assets
+  - [ ] Classrooms
+  - [ ] Comments
+  - [ ] Forums
+  - [ ] TW Placeholder
+  - [ ] Project
+  - [ ] Session
+  - [ ] Studio
+  - [ ] User
+
 ## Web API
 
 In order to make requests to scratch, there are a multitude of different urls where you can make

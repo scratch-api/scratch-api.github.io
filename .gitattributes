@@ -1,2 +1,2 @@
 *.md linguist-detectable
-README.md linguist-vendored
+docs/** -linguist-documentation

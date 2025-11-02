@@ -1,4 +1,4 @@
-Cloud Requests Framework (inspired by di*****.py) that allows Scratch projects and Python to interact
+Cloud Requests Framework (inspired by di\*\*\*\*\*.py) that allows Scratch projects and Python to interact
 
 New in v2.0: Cloud Requests now use threading.Event which massively lowers CPU usage.
 

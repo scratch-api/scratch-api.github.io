@@ -52,7 +52,7 @@ load_dotenv()
 
 async def main():
     async with await sa.login_by_id(os.environ["SA_ID"]) as sess:
-        sess.update()
+        await sess.update()
         print(repr(sess))
 
 if __name__ == "__main__":

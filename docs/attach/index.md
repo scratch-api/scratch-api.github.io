@@ -40,7 +40,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-### update a sessiob using the `https://scratch.mit.edu/session` endpoint
+### update a session using the `https://scratch.mit.edu/session` endpoint
 
 ```py
 import os

@@ -39,3 +39,22 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 ```
+
+### update a sessiob using the `https://scratch.mit.edu/session` endpoint
+
+```py
+import os
+import asyncio
+import scratchattach.async_api as sa
+from dotenv import load_dotenv
+
+load_dotenv()
+
+async def main():
+    async with await sa.login_by_id(os.environ["SA_ID"]) as sess:
+        sess.update()
+        print(repr(sess))
+
+if __name__ == "__main__":
+    asyncio.run(main())
+``
